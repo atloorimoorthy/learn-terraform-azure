@@ -1,4 +1,5 @@
 terraform {
+  # Configure the AzureRM Backend
   backend "azurerm" {
     resource_group_name  = "tfstate-rg"
     storage_account_name = "tfstatebackupstacc2712"
